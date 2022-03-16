@@ -1,0 +1,38 @@
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body bgcolor="silver">
+<h1>WEWNĘTRZNY ARKUSZ STYLU</h1>
+<ol>
+<li><h1>gdzie jest wstawiany,</li></h1>
+<p> wystarczy wpisać w treści nagłówkowej każdego z dokumentów (pomiędzy
+znacznikami < head>  a < / head>)</p>
+<li><h1>składnia teoretyczna (w ramce, konieczne wcięcia),</h1></li>
+<table border="1" align=center width="80%">
+<td>
+< head><bR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(...)<br>
+ &nbsp;< style type="text/css"><br>
+&nbsp;&nbsp;  < ! [CDATA[ <br>
+&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;selektor1 { cecha: wartość; cecha2: wartość2... }<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; selektor2 { cecha: wartość; cecha2: wartość2... }<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(...)<br>
+ &nbsp;  ]]> <br>
+ &nbsp;< / style><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(...)<br>
+< / head><br>
+</td>
+</table>
+<li><h1>jakie mogą być selektory,</h1></li>
+<p>Selektorem może być praktycznie dowolny znacznik, np. p (akapit), h1 (tytuł), td (komórka
+tabeli) i inne. To właśnie elementom, które znajdują się w kodzie źródłowym, pomiędzy tymi
+znacznikami, nadajemy atrybuty formatowania opisane w arkuszu.</p>
+<li><h1>jakie mogą być cechy i wartości.</h1></li>
+<p>Jako "cecha" (w deklaracji stylu - powyżej) należy wpisać o jakie konkretnie atrybuty
+formatowania nam chodzi (opisane w kolejnych rozdziałach).
+Natomiast jako wyraz "wartość" wpisujemy dokładną wartość atrybutu.</p>
+<ol>
+</body>
+</html>

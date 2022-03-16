@@ -1,6 +1,24 @@
-/*<04.02.2022-Michał Pstrągowski */
+/*<04.02.2022-Michal Pstragowski */
+
+
+<html> 
+ <head> 
+ 	<title>styl zewnetrzne</title> 
+ 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">  	<!--    importowany        --> 
+                 <style> 
+                       @import url("Pstr_z5_1.css");                  </style> 
+ </head> 
+ <body bgcolor="silver"> 
+       <h1> importowany arkusz</h1> 
+       <H3>  h3 wpisany wielkoscia standardowa</H3>       </body> 
+</html> 
+
+----------------------------------------------------------------------------------------------------------
+
 
 h1  {
         color: blue     ;
         font-size: 77px ; 
        } 
+
+

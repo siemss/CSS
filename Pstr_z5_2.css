@@ -1,4 +1,20 @@
-/*<04.02.2022-Michał Pstrągowski */
+/*<04.02.2022-Michal Pstragowski */
+
+
+<html> 
+ <head> 
+ 	<title>styl zewnetrzny</title> 
+ 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+ 	<!--    zewnetrzne         --> 
+                  <LINK href="Pstr_z5_2.css" rel="stylesheet" type="text/CSS"> 
+ </head> 
+ <body bgcolor="silver"> 
+       <h1> Pstragowski  -> zewnetrzne</h1> 
+       <H3>  h3 wpisany wielkoscia standardowa</H3> 
+      </body> 
+</html> 
+
+------------------------------------------------------------------------------
 
 h1  { 
  	color: #00FFFF       ; 
